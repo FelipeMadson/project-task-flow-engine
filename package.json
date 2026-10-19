@@ -1,0 +1,25 @@
+{
+  "name": "project-task-flow-engine",
+  "version": "1.0.0",
+  "description": "Deterministic Directed Acyclic Graph (DAG) task execution scheduler and dependency resolver with cycle detection",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/engine.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "dag",
+    "workflow",
+    "task-scheduler",
+    "topological-sort",
+    "dependencies",
+    "concurrency"
+  ],
+  "author": "Felipe Madson",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "typescript": "5.7.2"
+  }
+}
