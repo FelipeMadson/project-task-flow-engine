@@ -11,4 +11,4 @@ Agendador determinístico de tarefas baseado em Grafos Acíclicos Direcionados (
 
 ## Licença
 
-MIT © [Felipe Madson](https://github.com/FelipeMadson)
+MIT © [Felipe Madison](https://github.com/FelipeMadson)
